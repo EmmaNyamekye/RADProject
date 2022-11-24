@@ -37,10 +37,6 @@ public class characterMovement : MonoBehaviour
                 ourRigidbody.velocity = new Vector3(0, 0, 40);
             }
 
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                ourRigidbody.AddExplosionForce(1000, transform.position + Vector3.down + Vector3.back, 2);
-            }
         }
     }
 }
